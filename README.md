@@ -68,7 +68,6 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
 
-
 TP React context
 Créez un context global, partagé avec toute la hiétarchie des composants.
 Ajoutez-lui la valeur isAuth qui correspond au status d'authentification simulé (pas nécessaire d'utiliser un appel aysnchrone)
