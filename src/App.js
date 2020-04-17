@@ -5,7 +5,7 @@ import './App.css';
 
 function App() {
   return (
-    <AuthContext.Provider value="[{ name:'Priou' }, { name:'Masselot' }]">
+    <AuthContext.Provider value={{ isAuth : false}}>
       <div className="App">
         <Form />
       </div>

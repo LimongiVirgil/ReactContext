@@ -6,12 +6,11 @@ export default () => (
         <h1>Formulaire de connection</h1>
         <ul>
         <AuthContext.Consumer>
-        {
-            value => 
-            (
-                value.map( s => <li> s.name </li> )
-            )
-        }
+            {
+                value => (
+                    <p>{value.isAuth ? "OK" : "KO"}</p>
+                )
+            }
         </AuthContext.Consumer>
         </ul>
     </section>
